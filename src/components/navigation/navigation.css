@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  background-color: #1877f2;
+  height: 60px;
+  color: white;
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nav-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  width: auto;
+  height: auto;
+}
+
+.nav-signout {
+  cursor: pointer;
+}
+
+.nav-signout:hover {
+  border-bottom: 1px solid white;
+}
+
+.nav-profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}

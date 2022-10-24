@@ -1,0 +1,82 @@
+.messenger {
+  height: calc(100vh - 60px);
+  display: flex;
+}
+
+.messenger-conversations {
+  flex: 3.5;
+  border-right: 1px solid lightgray;
+  overflow-y: auto;
+}
+
+.messenger-chat-box {
+  flex: 5.5;
+  border-right: 1px solid lightgray;
+}
+
+.messenger-online-friends {
+  flex: 3;
+}
+
+.conversation-wrapper,
+.chat-box-wrapper,
+.online-friends-wrapper {
+  height: 100%;
+}
+
+.conversation-wrapper {
+  padding: 0 10px;
+  overflow-y: auto;
+}
+
+/* chat box top*/
+.chat-box-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #d3d3d3;
+  height: 12%;
+}
+
+.chat-box-profile-pic {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.chat-bax-username {
+  font-size: 1rem;
+}
+
+/* chat box middle */
+.chat-box-middle {
+  height: 76%;
+  padding: 0 10px;
+  overflow-y: auto;
+}
+
+/* chat box bottom */
+.chat-box-bottom {
+  display: flex;
+}
+
+.chat-box-input {
+  height: 50px;
+  width: 90%;
+  font-size: 1rem;
+  margin: 15px auto 0 auto;
+}
+
+.chat-box-input:focus {
+  outline: none;
+}
+
+/* online friends */
+.online-friends-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  overflow-y: scroll;
+}

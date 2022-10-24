@@ -1,0 +1,25 @@
+.conversation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 80px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  gap: 15px;
+} 
+
+.conversation:hover {
+  background-color: #efefef;
+}
+
+.conv-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.conv-username {
+  font-size: 1.1rem;
+}
