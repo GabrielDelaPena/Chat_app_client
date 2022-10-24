@@ -16,8 +16,7 @@ function Message({ own }) {
         />
         <p className="message-text">
           Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de
-          16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze
-          door elkaar husselde
+          16e eeuw, toen een onbekende drukker een zethaak met letters
         </p>
       </div>
       <p className="message-time">2 hours ago</p>
